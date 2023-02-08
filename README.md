@@ -23,7 +23,7 @@ Add this to the overwrite section at the end of your printer.cfg file.
 
 # 3. Modify your slicers start print g-code
 
-- PrusaSlicer / SuperSlicer
+- PrusaSlicer / SuperSlicer / BambuStudio-SoftFever 
 ```ini
 MESH_CONFIG X0={first_layer_print_min[0]} Y0={first_layer_print_min[1]} X1={first_layer_print_max[0]} Y1={first_layer_print_max[1]}
 START_PRINT EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature]
